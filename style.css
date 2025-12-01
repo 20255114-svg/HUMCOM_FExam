@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #00ffcc;
+}
+
+.nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border: 1px solid #00ffcc;
+    margin: 3px;
+    display: inline-block;
+}
+
+.nav a:hover {
+    background-color: #00ffcc;
+    color: black;
+}
+
+.active {
+    background-color: #00ffcc;
+    color: black;
+}
+
+.announcement {
+    border: 1px dashed #00ffcc;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    border: 1px solid #00ffcc;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.join-form input,
+.join-form textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+.join-form button {
+    padding: 5px 15px;
+    background-color: #00ffcc;
+    border: none;
+    cursor: pointer;
+}
+.footer {
+    background-color: #000;
+    color: #00ffcc;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.schedule th,
+.schedule td {
+    border: 1px solid #00ffcc;
+    padding: 8px;
+    text-align: center;
+}
+
+.schedule th {
+    color: #00ffcc;
+}
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #00ffcc;
+    padding: 15px;
+    width: 45%;
+}
+
+.online {
+    color: #00ff00;
+}
+
+.offline {
+    color: red;
+}
+.teams {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.team-card {
+    border: 1px solid #00ffcc;
+    padding: 15px;
+    width: 45%;
+}
